@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "F:/College labs 3 1/3 2/WE LAB/angular-example-thirdjun/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "F:/College labs 3 1/3 2/WE LAB/angular-example-thirdjun/node_modules/jquery/dist/jquery.min.js",
+              "F:/College labs 3 1/3 2/WE LAB/angular-example-thirdjun/node_modules/popper.js/dist/umd/popper.js",
+              "F:/College labs 3 1/3 2/WE LAB/angular-example-thirdjun/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {

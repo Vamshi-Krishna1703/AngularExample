@@ -1,0 +1,32 @@
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Date of Joining</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr *ngFor = "let s of students">
+            <td> {{s.name|uppercase}} </td>
+            <td> {{s.id}} </td>
+            <td> {{s.doj | date }} </td>
+            <td> {{s.year}} </td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="row" >
+    <div class="col-lg-4 col-sm-12 col-md-6" style="margin-top: 5px;" *ngFor = "let s of students">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h6>Name : {{s.name|uppercase}} </h6>
+                <h6>ID : {{s.id|uppercase}} </h6>
+                <h6>Date Of Joining : {{s.doj|date}} </h6>
+                <h6>Year : {{s.year}} </h6>
+            </div>
+          </div>
+    </div>
+</div>
